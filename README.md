@@ -12,75 +12,71 @@ The notebooks are designed to be run locally by cloning or downloading the proje
 move on to install and create a virtual env. See below instruction on installing a virtual environment on window10 or Mac OS X. 
 
 # Getting Started
-Before installing and creating your venv, place the Supplemental_Materials folder in your Desktop folder.
-Next, open your command line and cd into the Nilgai folder which has been placed inside the Supplemental_Material folder. For Windows10, type:
+To help with creating a virtual environment, we've listed a few steps that might help new users. Feel free to skip this section if you are already familiar with clone repos and creating virtual environments. 
+
+1. Download the repo using the green "Code" button above and place the Nilgai-master folder in your Desktop folder.
+
+2. Next, open your command line and `cd` into the Nilgai-master folder. 
+For Windows10 and MAC OS X, type:
 	
-		`cd Desktop\Supplemental_Material\Nilgai`
+		cd Desktop\Nilgai-master
+
+
+3. Install the python virtualenv module by typing (for Windows10):
+
+        	py -m pip install --user virtualenv
 
 For MacOSX:
 
-		`cd Desktop/Supplemental_Material/Nilgai`
-
-
-Install Virtual Environment (python3). Once inside the Nilgai folder:
-
-1. Install the python virtualenv module by typing (for Windows10):
-
-        	`py -m pip install --user virtualenv`
-
-        For MacOSX:
-
         	python3 -m pip install --user virtualenv
 
-        2. Now create your virtual environment and give it a name. Here I'm using "my_venv_name" without the quotes, but this can be changed
-	to whatever you want:
+4. Now create your virtual environment and give it a name. Here I'm using "my_venv_name" without the quotes, but this can be changed
+to whatever you want:
 
-        Windows10:
+Windows10:
         	py -m venv my_venv_name
 
-        MacOSX:
+MacOSX:
         	python3 -m venv my_venv_name
 
-        3. Activate your virtual environment
+5. Activate your virtual environment
 
-        Windows10:
+Windows10:
         	my_venv_name\Scripts\activate
 
-        MacOSX
+MacOSX:
         	source my_venv_name/bin/activate
 
-        You should now have my_venv_name prepended to your command line prompt like (my_venv_name).
+You should now have my_venv_name prepended to your command line prompt like (my_venv_name).
 
 
-After creating your virtual environment, install the necessary dependencies using the requirements.txt file:
+6. After creating your virtual environment, install the necessary dependencies using the requirements.txt file:
 
 
-        Windows10*:
+Windows10*:
 
         	pip3 install -r requirements.txt
 
 
-        MacOSX:
+MacOSX:
 
        		pip3 install -r requirements.txt
 
 
-Open Jupyter Lab:
-
-        In the command line type (for window10 and MacOSX):
+7. Open Jupyter Lab:
+In the command line type (for window10 and MacOSX):
 
         	jupyter lab 
          
         
 A browser window should pop-up and you should see the Nilgai folders, README.txt, and requirements.txt files. 
 
-        Go to the /notebooks folder and run one of the ipynb files. Double click and follow the instructions. 
+8. Go to the /notebooks folder and run one of the ipynb files. Double click and follow the instructions. 
 
 
-Troubleshoot*:
+Troubleshooting*:
 
-Sometimes, especially in Windows, modules won't get installed. If you have prblems with a certain package, manually install inside your virtual environement by typing:
-
+Sometimes, especially in Windows, modules won't get installed. If you have prblems with a certain package, manually install it to your virtual environement by typing:
 
 		pip install package_name
 
