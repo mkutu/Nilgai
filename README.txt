@@ -1,4 +1,4 @@
-Repository for the Nilgai binary and multigroup classification. 
+#Repository for the Nilgai binary and multigroup classification. 
 
 This tutorial walks you through implementing the trained CNN to classify camera trap images. 
 
