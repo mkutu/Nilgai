@@ -15,18 +15,18 @@ move on to install and create a virtual env. See below instruction on installing
 Before installing and creating your venv, place the Supplemental_Materials folder in your Desktop folder.
 Next, open your command line and cd into the Nilgai folder which has been placed inside the Supplemental_Material folder. For Windows10, type:
 	
-		cd Desktop\Supplemental_Material\Nilgai
+		`cd Desktop\Supplemental_Material\Nilgai`
 
-	For MacOSX:
+For MacOSX:
 
-		cd Desktop/Supplemental_Material/Nilgai
+		`cd Desktop/Supplemental_Material/Nilgai`
 
 
 Install Virtual Environment (python3). Once inside the Nilgai folder:
 
-        1. Install the python virtualenv module by typing (for Windows10):
+1. Install the python virtualenv module by typing (for Windows10):
 
-        	py -m pip install --user virtualenv
+        	`py -m pip install --user virtualenv`
 
         For MacOSX:
 
