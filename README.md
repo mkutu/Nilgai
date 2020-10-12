@@ -79,7 +79,7 @@ A browser window should pop-up and you should see the Nilgai folders, README.txt
 8. Go to the /notebooks folder and run one of the ipynb files. Double click and follow the instructions. 
 
 
-Troubleshooting*:
+## Troubleshooting*:
 
 Sometimes, especially in Windows, modules won't get installed. If you have prblems with a certain package, manually install it to your virtual environement by typing:
 
