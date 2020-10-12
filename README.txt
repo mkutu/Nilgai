@@ -1,12 +1,17 @@
-#Repository for the Nilgai binary and multigroup classification. 
+# Repository for the Nilgai binary and multigroup classification. 
 
-This tutorial walks you through implementing the trained CNN to classify camera trap images. 
+This is a tutorial that implements a trained CNN to classify camera trap images.
 
-Python 3+ is required. If you don't have python installed, go to https://www.python.org/downloads/release/python-380/ 
-and follow the instructions. Be sure to "add python to PATH" when you're asked and choose python 3.8 . Once you have python, 
+The reposiotry includes:
+* Instructions to install the appropriate dependencies
+* Trained weights for a binary and multigroup classifier
+* Jupyter notebooks to run inference on a sample of images
+* sample of test set images
+
+The notebooks are designed to be run locally by cloning or downloading the project. It is highly recommended to create a virtual environment. This project requries Python 3+. If you don't have python installed, go to the official [python page](https://www.python.org/downloads/release/python-380/) and follow the instructions. Be sure to "add python to PATH" when you're asked and choose python 3.8 . Once you have python, 
 move on to install and create a virtual env. See below instruction on installing a virtual environment on window10 or Mac OS X. 
 
-
+# Getting Started
 Before installing and creating your venv, place the Supplemental_Materials folder in your Desktop folder.
 Next, open your command line and cd into the Nilgai folder which has been placed inside the Supplemental_Material folder. For Windows10, type:
 	
