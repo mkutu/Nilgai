@@ -17,6 +17,7 @@ To help with creating a virtual environment, we've listed a few steps that might
 1. Download the repo using the green "Code" button above and place the Nilgai-master folder in your Desktop folder.
 
 2. Next, open your command line and `cd` into the Nilgai-master folder. 
+
 For Windows10 and MAC OS X, type:
 	
 		cd Desktop\Nilgai-master
@@ -24,22 +25,22 @@ For Windows10 and MAC OS X, type:
 
 3. Install the python virtualenv module by typing (for Windows10):
 
-        	py -m pip install --user virtualenv
+		py -m pip install --user virtualenv
 
 For MacOSX:
 
-        	python3 -m pip install --user virtualenv
+		python3 -m pip install --user virtualenv
 
 4. Now create your virtual environment and give it a name. Here I'm using "my_venv_name" without the quotes, but this can be changed
 to whatever you want:
 
 Windows10:
 
-        	py -m venv my_venv_name
+		py -m venv my_venv_name
 
 MacOSX:
 
-        	python3 -m venv my_venv_name
+		python3 -m venv my_venv_name
 
 5. Activate your virtual environment
 
@@ -49,7 +50,7 @@ Windows10:
 
 MacOSX:
 
-        	source my_venv_name/bin/activate
+		source my_venv_name/bin/activate
 
 You should now have my_venv_name prepended to your command line prompt like (my_venv_name).
 
@@ -59,18 +60,18 @@ You should now have my_venv_name prepended to your command line prompt like (my_
 
 Windows10*:
 
-        	pip3 install -r requirements.txt
+		pip3 install -r requirements.txt
 
 
 MacOSX:
 
-       		pip3 install -r requirements.txt
+		pip3 install -r requirements.txt
 
 
 7. Open Jupyter Lab:
 In the command line type (for window10 and MacOSX):
 
-        	jupyter lab 
+		jupyter lab 
          
         
 A browser window should pop-up and you should see the Nilgai folders, README.txt, and requirements.txt files. 
@@ -85,7 +86,7 @@ Sometimes, especially in Windows, modules won't get installed. If you have prble
 		pip install package_name
 
 Alternatively, copy and paste this line of code to install all the necessary libraries. Be sure you have your virtual environment activated:
-
+		
 		pip install jupyterlab tensorflow tensorflow-hub pandas numpy seaborn scikit-learn shutil jupyterlab matplotlib opencv-python
 
 
