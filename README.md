@@ -34,17 +34,21 @@ For MacOSX:
 to whatever you want:
 
 Windows10:
+
         	py -m venv my_venv_name
 
 MacOSX:
+
         	python3 -m venv my_venv_name
 
 5. Activate your virtual environment
 
 Windows10:
-        	my_venv_name\Scripts\activate
+
+		my_venv_name\Scripts\activate
 
 MacOSX:
+
         	source my_venv_name/bin/activate
 
 You should now have my_venv_name prepended to your command line prompt like (my_venv_name).
