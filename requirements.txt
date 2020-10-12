@@ -1,0 +1,10 @@
+tensorflow
+tensorflow-hub
+jupyterlab
+matplotlib
+pandas
+shutil
+seaborn
+opencv-python
+numpy
+scikit-learn
