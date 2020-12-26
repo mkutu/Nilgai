@@ -1,5 +1,7 @@
 tensorflow
 tensorflow-hub
+jupyter
+notebook
 jupyterlab
 matplotlib
 pandas
